@@ -1,8 +1,11 @@
-﻿
-int fortrest(int i)
+﻿//Напишите программу, которая принимает на вход 
+//трёхзначное число и на выходе показывает вторую цифру этого числа
+
+
+int fortrest(int vale)
 {
-    Console.Write(i + " => ");
-    int res = i /10 % 10;
+    Console.Write(vale + " => ");
+    int res = vale /10 % 10;
     return res;
 }
 Console.Write("input number: ");
